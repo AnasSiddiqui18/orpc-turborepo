@@ -1,0 +1,17 @@
+{
+  "name": "@repo/server",
+  "module": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "@orpc/contract": "^1.2.0",
+    "@orpc/openapi": "^1.2.0",
+    "@orpc/zod": "^1.2.0",
+    "@repo/shared": "*"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
