@@ -10,7 +10,7 @@ const openAPIGenerator = new OpenAPIGenerator({
 export const openApiDocs = await openAPIGenerator.generate(router, {
   servers: [
     {
-      url: "http://localhost:3000/api",
+      url: "http://localhost:3000/api", // baseurl
     },
   ],
 });
